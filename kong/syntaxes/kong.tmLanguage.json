@@ -1,0 +1,104 @@
+{
+  "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+  "name": "Kong",
+  "patterns": [
+    {
+      "include": "#comments"
+    },
+    {
+      "include": "#keywords"
+    },
+    {
+      "include": "#strings"
+    },
+    {
+      "include": "#punctuation"
+    },
+    {
+      "include": "#functions"
+    },
+    {
+      "include": "#types"
+    }
+  ],
+  "repository": {
+    "keywords": {
+      "patterns": [
+        {
+          "name": "keyword.operator.arrow.kong",
+          "match": "->"
+        },
+        {
+          "name": "keyword.control.kong",
+          "match": "\\b(If|While|For|Return|In|Funk|Konst|Strong|Inklude|From|Strukt|Type)\\b"
+        }
+      ]
+    },
+    "strings": {
+      "name": "string.quoted.double.kong",
+      "begin": "\"",
+      "end": "\"",
+      "patterns": [
+        {
+          "name": "constant.character.escape.kong",
+          "match": "\\\\."
+        }
+      ]
+    },
+    "comments": {
+      "patterns": [
+        {
+          "name": "comment.line.double-slash.kong",
+          "begin": "//",
+          "end": "$\\n?"
+        },
+        {
+          "name": "comment.block.kong",
+          "begin": "/\\*",
+          "end": "\\*/"
+        }
+      ]
+    },
+    "functions": {
+      "patterns": [
+        {
+          "name": "entity.name.function.kong",
+          "match": "\\b([a-zA-Z_][a-zA-Z0-9_]*)\\s*(?=\\()"
+        }
+      ]
+    },
+    "types": {
+      "patterns": [
+        {
+          "name": "entity.name.type.kong",
+          "match": "\\b[A-Z][a-zA-Z0-9_]*\\b"
+        }
+      ]
+    },
+    "punctuation": {
+      "patterns": [
+        {
+          "name": "punctuation.brackets.angle.kong",
+          "match": "[<>]"
+        },
+        {
+          "name": "punctuation.brackets.round.kong",
+          "match": "[()]"
+        },
+        {
+          "name": "punctuation.brackets.square.kong",
+          "match": "[\\[\\]]"
+        },
+        {
+          "name": "punctuation.brackets.curly.kong",
+          "match": "[{}]"
+        },
+        {
+          "name": "punctuation.separator.pipe.kong",
+          "match": "\\|"
+        }
+      ]
+    }
+  },
+  "scopeName": "source.kong"
+}

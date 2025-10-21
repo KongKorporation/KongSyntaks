@@ -1,0 +1,29 @@
+{
+  "name": "kong",
+  "displayName": "Kong Syntaks Highlighter",
+  "description": "Kong Syntaks",
+  "version": "0.0.2",
+  "icon": "images/KongStrong.png",
+  "author": {
+    "name": "Sami Hamrouni"
+  },
+  "engines": {
+    "vscode": "^1.104.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "kong",
+      "aliases": ["Kong", "kong"],
+      "extensions": [".kong"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "kong",
+      "scopeName": "source.kong",
+      "path": "./syntaxes/kong.tmLanguage.json"
+    }]
+  }
+}

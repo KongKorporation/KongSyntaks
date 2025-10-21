@@ -1,0 +1,28 @@
+Funk add(a: Int, b: Int) -> Int {
+    Return a + b;
+}
+
+/*
+Funk add(a: Int, b: Int) -> Int {
+    Return a + b;
+}
+*/
+
+//kommentaire
+
+
+
+Funk main() -> Int {
+    Int x = 3;
+    Int y = 4;
+    Int result = add(x, y);
+
+    If (zizi) {
+        Return coucou
+    }
+
+    array[]
+    vector<1>
+    tuple|0|
+    Return result;
+}
