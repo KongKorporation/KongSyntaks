@@ -30,7 +30,7 @@
         },
         {
           "name": "keyword.control.kong",
-          "match": "\\b(If|While|For|Return|In|Funk|Konst|Strong|Inklude|From|Strukt|Type)\\b"
+          "match": "\\b(If|Else|While|For|Return|In|Funk|Konst|Strong|Inklude|From|Strukt|Type)\\b"
         }
       ]
     },

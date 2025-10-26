@@ -13,6 +13,10 @@
   "categories": [
     "Programming Languages"
   ],
+  "repository": {
+    "url": "https://github.com/KongKorporation/KongSyntaks.git"
+  },
+  "publisher": "KongKorp",
   "contributes": {
     "languages": [{
       "id": "kong",
