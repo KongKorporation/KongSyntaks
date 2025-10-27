@@ -2,7 +2,7 @@
   "name": "kong",
   "displayName": "Kong Syntaks Highlighter",
   "description": "Kong Syntaks",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "icon": "images/KongStrong.png",
   "author": {
     "name": "Sami Hamrouni"
