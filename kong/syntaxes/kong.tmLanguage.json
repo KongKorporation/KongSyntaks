@@ -25,6 +25,9 @@
     },
     {
       "include": "#operators"
+    },
+    {
+      "include": "#comparators"
     }
   ],
   "repository": {
@@ -119,6 +122,14 @@
           "name": "keyword.operator.arithmetic.kong",
           "match": "[+\\-*/%=]"
         }
+      ]
+    },
+    "comparators": {
+        "patterns": [
+          {
+            "name": "keyword.operator.comparator.kong",
+            "match": "`[^`]*`"
+          }
       ]
     }
   },
