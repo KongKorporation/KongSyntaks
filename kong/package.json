@@ -2,7 +2,7 @@
   "name": "kong",
   "displayName": "Kong Syntaks Highlighter",
   "description": "Kong Syntaks",
-  "version": "0.0.5",
+  "version": "1.0",
   "icon": "images/KongStrong.png",
   "author": {
     "name": "Sami Hamrouni"
@@ -28,6 +28,13 @@
       "language": "kong",
       "scopeName": "source.kong",
       "path": "./syntaxes/kong.tmLanguage.json"
-    }]
+    }],
+    "iconThemes": [
+      {
+        "id": "kong-icon-theme",
+        "label": "Kong Icon Theme",
+        "path": "./icon-theme/kong-icon-theme.json"
+      }
+    ]
   }
 }
