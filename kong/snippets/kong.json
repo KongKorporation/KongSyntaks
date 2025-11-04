@@ -1,0 +1,151 @@
+{
+  "Funk": {
+    "prefix": "funk",
+    "body": [
+      "Funk ${1:functionName}(${2:params}) -> ${3:Int} {",
+      "\t${4:// body}",
+      "\tReturn ${5:0};",
+      "}"
+    ],
+    "description": "Create a Kong function"
+  },
+  "Funk with parameters": {
+    "prefix": "funkp",
+    "body": [
+      "Funk ${1:functionName}(${2:param1}: ${3:Int}, ${4:param2}: ${5:Int}) -> ${6:Int} {",
+      "\t${7:// body}",
+      "\tReturn ${8:result};",
+      "}"
+    ],
+    "description": "Create a Kong function with parameters"
+  },
+  "Main Function": {
+    "prefix": "main",
+    "body": [
+      "Funk main() -> Int {",
+      "\t${1:// code}",
+      "\tReturn 0;",
+      "}"
+    ],
+    "description": "Create main function"
+  },
+  "If Statement": {
+    "prefix": "if",
+    "body": [
+      "If (${1:condition}) {",
+      "\t${2:// body}",
+      "}"
+    ],
+    "description": "If statement"
+  },
+  "If Else Statement": {
+    "prefix": "ifelse",
+    "body": [
+      "If (${1:condition}) {",
+      "\t${2:// if body}",
+      "} Else {",
+      "\t${3:// else body}",
+      "}"
+    ],
+    "description": "If-Else statement"
+  },
+  "While Loop": {
+    "prefix": "while",
+    "body": [
+      "While (${1:condition}) {",
+      "\t${2:// body}",
+      "}"
+    ],
+    "description": "While loop"
+  },
+  "For Loop": {
+    "prefix": "for",
+    "body": [
+      "For (${1:i} In ${2:range}) {",
+      "\t${3:// body}",
+      "}"
+    ],
+    "description": "For loop"
+  },
+  "Konst": {
+    "prefix": "konst",
+    "body": [
+      "Konst ${1:name}: ${2:Int} = ${3:value};"
+    ],
+    "description": "Constant declaration"
+  },
+  "Variable Declaration": {
+    "prefix": "var",
+    "body": [
+      "${1:Int} ${2:name} = ${3:value};"
+    ],
+    "description": "Variable declaration"
+  },
+  "Strong Variable": {
+    "prefix": "strong",
+    "body": [
+      "Strong ${1:Type} ${2:name} = ${3:value};"
+    ],
+    "description": "Strong variable declaration"
+  },
+  "Return": {
+    "prefix": "ret",
+    "body": [
+      "Return ${1:value};"
+    ],
+    "description": "Return statement"
+  },
+  "Inklude": {
+    "prefix": "inklude",
+    "body": [
+      "Inklude ${1:module} From ${2:path};"
+    ],
+    "description": "Include module"
+  },
+  "Strukt": {
+    "prefix": "strukt",
+    "body": [
+      "Strukt ${1:Name} {",
+      "\t${2:field}: ${3:Type};",
+      "}"
+    ],
+    "description": "Struct declaration"
+  },
+  "Type": {
+    "prefix": "type",
+    "body": [
+      "Type ${1:Name} = ${2:definition};"
+    ],
+    "description": "Type alias"
+  },
+  "Array": {
+    "prefix": "array",
+    "body": [
+      "${1:Type}[${2:size}]"
+    ],
+    "description": "Array type"
+  },
+  "Vector": {
+    "prefix": "vector",
+    "body": [
+      "${1:Type}<${2:size}>"
+    ],
+    "description": "Vector type"
+  },
+  "Tuple": {
+    "prefix": "tuple",
+    "body": [
+      "|${1:Type1}|${2:Type2}|"
+    ],
+    "description": "Tuple type"
+  },
+  "Block Comment": {
+    "prefix": "/*",
+    "body": [
+      "/*",
+      " * ${1:comment}",
+      " */"
+    ],
+    "description": "Block comment"
+  }
+}

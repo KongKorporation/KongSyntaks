@@ -32,6 +32,10 @@
       "language": "kong",
       "scopeName": "source.kong",
       "path": "./syntaxes/kong.tmLanguage.json"
+    }],
+    "snippets": [{
+      "language": "kong",
+      "path": "./snippets/kong.json"
     }]
   }
 }
