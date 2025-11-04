@@ -22,19 +22,16 @@
       "id": "kong",
       "aliases": ["Kong", "kong"],
       "extensions": [".kong"],
-      "configuration": "./language-configuration.json"
+      "configuration": "./language-configuration.json",
+      "icon": {
+        "light": "./images/KongStrong.svg",
+        "dark": "./images/KongStrong.svg"
+      }
     }],
     "grammars": [{
       "language": "kong",
       "scopeName": "source.kong",
       "path": "./syntaxes/kong.tmLanguage.json"
-    }],
-    "iconThemes": [
-      {
-        "id": "kong-icon-theme",
-        "label": "Kong Icon Theme",
-        "path": "./icon-theme/kong-icon-theme.json"
-      }
-    ]
+    }]
   }
 }
